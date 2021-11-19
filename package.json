@@ -1,6 +1,6 @@
 {
   "name": "newrelic-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This project backup's and restore's NewRelic Resources using Serverless framework, Slack's powerful API and AWS.",
   "scripts": {
     "lint": "./node_modules/eslint/bin/eslint.js .",
@@ -8,7 +8,16 @@
     "version": "auto-changelog --template changelog.hbs -p && git add CHANGELOG.md",
     "test": "serverless-bundle test"
   },
-  "keywords": ["NewRelic", "Slack", "AWS Lambda", "S3","API Gateway","GraphiQL", "serverless","Terraform"],
+  "keywords": [
+    "NewRelic",
+    "Slack",
+    "AWS Lambda",
+    "S3",
+    "API Gateway",
+    "GraphiQL",
+    "serverless",
+    "Terraform"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
